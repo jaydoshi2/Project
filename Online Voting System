@@ -1,0 +1,1558 @@
+package PROJECT;
+// THIS IS JAVA FILE 1 TO INPUT THE CALSS 
+import java.util.*;
+public class File1_Choose_class 
+{
+    public static void main(String args[])
+    {
+        String class_division;
+        System.out.println("||==========================================||");
+        System.out.println("||         WELCOME TO LJ VOTING CENTER      || ");
+        System.out.println("||==========================================||");
+        Students_of_CEIT s = new Students_of_CEIT();
+        Scanner sc = new Scanner(System.in);
+        System.out.printf("    ENTER YOUR CLASS NUMBER(1/2/3/4/5/6) %3s \n"," ");
+        System.out.printf("%23s"," ");
+        int class_number = sc.nextInt();
+        sc.nextLine();
+        System.out.printf("       Enter your class division(A/B) %8s","   \n");
+        System.out.printf("%23s"," ");
+        class_division = sc.nextLine();
+        if(class_division.equalsIgnoreCase("A")&&class_number==1)
+        {
+            s.new A1();
+        }
+        if(class_division.equalsIgnoreCase("A")&&class_number==2)
+        {
+            s.new A2();
+        }
+        if(class_division.equalsIgnoreCase("A")&&class_number==3)
+        {
+            s.new A3();
+        }
+        if(class_division.equalsIgnoreCase("A")&&class_number==4)
+        {
+            s.new A4();
+        }
+        if(class_division.equalsIgnoreCase("A")&&class_number==5)
+        {
+            s.new A5();
+        }
+        if(class_division.equalsIgnoreCase("A")&&class_number==6)
+        {
+            s.new A6();
+        }
+        if(class_division.equalsIgnoreCase("B")&&class_number==1)
+        {
+            s.new B1();
+        }
+        if(class_division.equalsIgnoreCase("B")&&class_number==2)
+        {
+            s.new B2();
+        }
+        if(class_division.equalsIgnoreCase("B")&&class_number==3)
+        {
+            s.new B3();
+        }
+        if(class_division.equalsIgnoreCase("B")&&class_number==4)
+        {
+            s.new B4();
+        }
+        if(class_division.equalsIgnoreCase("B")&&class_number==5)
+        {
+            s.new B5();
+        }
+        if(class_division.equalsIgnoreCase("B")&&class_number==6)
+        {
+            s.new B6();
+        }
+        sc.close();
+    }
+}
+class Students_of_CEIT
+{
+    class A1
+    {
+        A1()
+        {
+            System.out.println("||===========================================||");
+            System.out.printf("|| %15s %16s","          THIS IS CLASS 1-A ","||\n");
+            System.out.println("||===========================================||");
+            String[] name = new String[2];
+            name[0] ="A";
+            name [1]= "1";
+            File2_storing_in_file.main(name);
+        }
+    }
+    class B1
+    {
+
+        public B1() 
+        {
+            System.out.println("||===========================================||");
+            System.out.printf("|| %15s %16s","          THIS IS CLASS 1-B ","||\n");
+            System.out.println("||===========================================||");
+            String[] name = new String[2];
+            name[0] ="B";
+            name [1]= "1";
+            File2_storing_in_file.main(name);
+        }
+    }
+    class A2
+    {
+
+        public A2() 
+        {
+            System.out.println("||===========================================||");
+            System.out.printf("|| %15s %16s","          THIS IS CLASS 2-A ","||\n");
+            System.out.println("||===========================================||");
+            String[] name = new String[2];
+            name[0] ="A";
+            name [1]= "2";
+            File2_storing_in_file.main(name);
+        }
+        
+    }
+    class B2
+    {
+
+        public B2() 
+        {
+            System.out.println("||===========================================||");
+            System.out.printf("|| %15s %16s","          THIS IS CLASS 2-B ","||\n");
+            System.out.println("||===========================================||");
+            String[] name = new String[2];
+            name[0] ="B";
+            name [1]= "2";
+            File2_storing_in_file.main(name);
+        }
+    }
+    class A3
+    {
+
+        public A3() 
+        {
+            System.out.println("||===========================================||");
+            System.out.printf("|| %15s %16s","          THIS IS CLASS 3-A ","||\n");
+            System.out.println("||===========================================||");
+            String[] name = new String[2];
+            name[0] ="A";
+            name [1]= "3";
+            File2_storing_in_file.main(name);
+        }
+
+    }
+    class B3
+    {
+
+        public B3() 
+        {
+            System.out.println("||===========================================||");
+            System.out.printf("|| %15s %16s","          THIS IS CLASS 3-B ","||\n");
+            System.out.println("||===========================================||");
+            String[] name = new String[2];
+            name[0] ="B";
+            name [1]= "3";
+            File2_storing_in_file.main(name);
+        }
+    }
+    class A4
+    {
+
+        public A4() 
+        {
+            System.out.println("||===========================================||");
+            System.out.printf("|| %15s %16s","          THIS IS CLASS 4-A ","||\n");
+            System.out.println("||===========================================||");
+            String[] name = new String[2];
+            name[0] ="A";
+            name [1]= "4";
+            File2_storing_in_file.main(name);
+        }
+
+    }
+    class B4
+    {
+
+        public B4() 
+        {
+            System.out.println("||===========================================||");
+            System.out.printf("|| %15s %16s","          THIS IS CLASS 4-B ","||\n");
+            System.out.println("||===========================================||");
+            String[] name = new String[2];
+            name[0] ="B";
+            name [1]= "4";
+            File2_storing_in_file.main(name);
+        }
+
+    }
+    class A5
+    {
+
+        public A5() 
+        {
+            System.out.println("||===========================================||");
+            System.out.printf("|| %15s %16s","          THIS IS CLASS 5-A ","||\n");
+            System.out.println("||===========================================||");
+            String[] name = new String[2];
+            name[0] ="A";
+            name [1]= "5";
+            File2_storing_in_file.main(name);
+        }
+
+    }
+    class B5
+    {
+
+        public B5() 
+        {
+            System.out.println("||===========================================||");
+            System.out.printf("|| %15s %16s","          THIS IS CLASS 5-B ","||\n");
+            System.out.println("||===========================================||");
+            String[] name = new String[2];
+            name[0] ="B";
+            name [1]= "5";
+            File2_storing_in_file.main(name);
+        }
+
+    }
+    class A6
+    {
+
+        public A6() 
+        {
+            System.out.println("||===========================================||");
+            System.out.printf("|| %15s %16s","          THIS IS CLASS 6-A ","||\n");
+            System.out.println("||===========================================||");
+            String[] name = new String[2];
+            name[0] ="A";
+            name [1]= "6";
+            File2_storing_in_file.main(name);
+        }
+
+    }
+    class B6
+    {
+
+        public B6() 
+        {
+            System.out.println("||===========================================||");
+            System.out.printf("|| %15s %16s","          THIS IS CLASS 6-B ","||\n");
+            System.out.println("||===========================================||");
+            String[] name = new String[2];
+            name[0] ="B";
+            name [1]= "6";
+            File2_storing_in_file.main(name);
+        }
+    }
+
+}
+
+// THIS IS 2ND JAVA FILE TO STORE THE DATA OF STUDENTS 
+package PROJECT;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class File2_storing_in_file {
+    public static void main(String[] args) {
+        if(args[0]=="A"&&args[1]=="1")
+        {
+            Scanner sc = new Scanner(System.in);
+            int i = 1;
+            System.out.printf("            Enter number of students %14s"," \n");
+            System.out.printf("%22s"," ");
+            int n = sc.nextInt();
+            sc.nextLine();  
+            try {
+                FileWriter writer = new FileWriter("1A.txt", true);
+                boolean addMore = true;
+                while (addMore) {
+                    System.out.println("            Enter name of student : "+(i));
+                    System.out.printf("   %15s","");
+                    String name = sc.nextLine();
+                    System.out.printf("         Enter roll number of student: %d %6s",(i),"  \n");
+                    System.out.printf("  %20s"," ");
+                    int roll = sc.nextInt();
+                    sc.nextLine(); // Consume the newline character left by nextInt()
+                    writer.write(name + ","  + roll + "\n");
+                    String[] number = new String[1];
+                    number[0] = Integer.toString(i);
+                    File3_Displaying_Teachers_List.main(number);
+
+                    System.out.println("||============================================||");
+                    System.out.println("||             THANKS FOR VOTING!             ||");
+                    System.out.println("||============================================||");
+                    if (i==n) {
+                        addMore = false;
+                    }
+                    ++i;
+                }
+                writer.close();
+            } catch (IOException e) {
+                System.out.println("An error occurred while writing to the file.");
+                e.printStackTrace();
+            }
+        }
+        // this is to call 2A Batch
+        if(args[0]=="A"&&args[1]=="2")
+        {
+            Scanner sc = new Scanner(System.in);
+            int i = 1;
+            System.out.printf("            Enter number of students %14s"," \n");
+            System.out.printf("%22s"," ");
+            int n = sc.nextInt();
+            sc.nextLine();  
+            try {
+                FileWriter writer = new FileWriter("2A.txt", true);
+                boolean addMore = true;
+                while (addMore) {
+                    System.out.println("            Enter name of student : "+(i));
+                    System.out.printf("   %15s","");
+                    String name = sc.nextLine();
+                    System.out.printf("         Enter roll number of student: %d %6s",(i),"  \n");
+                    System.out.printf("  %20s"," ");
+                    int roll = sc.nextInt();
+                    sc.nextLine(); 
+                    writer.write(name + "," + roll + "\n");
+                    String[] number = new String[1];
+                    number[0] = Integer.toString(i);
+                    File3_Displaying_Teachers_List.main(number);
+                    System.out.println("||============================================||");
+                    System.out.println("||             THANKS FOR VOTING!             ||");
+                    System.out.println("||============================================||");
+                    if (i==n) {
+                        addMore = false;
+                    }
+                    ++i;
+                }
+                writer.close();
+            } catch (IOException e) {
+                System.out.println("An error occurred while writing to the file.");
+                e.printStackTrace();
+            }
+        }
+        // this is to call 3-A batch
+        if(args[0]=="A"&&args[1]=="3")
+        {
+            Scanner sc = new Scanner(System.in);
+            int i = 1;
+            System.out.printf("            Enter number of students %14s"," \n");
+            System.out.printf("%22s"," ");
+            int n = sc.nextInt();
+            sc.nextLine();  
+            try {
+                FileWriter writer = new FileWriter("3A.txt", true);
+                boolean addMore = true;
+                while (addMore) {
+                    System.out.println("            Enter name of student : "+(i));
+                    System.out.printf("   %15s","");
+                    String name = sc.nextLine();
+                    System.out.printf("         Enter roll number of student: %d %6s",(i),"  \n");
+                    System.out.printf("  %20s"," ");
+                    int roll = sc.nextInt();
+                    sc.nextLine(); 
+                    writer.write(name + ","  + "," + roll + "\n");
+                    String[] number = new String[1];
+                    number[0] = Integer.toString(i);
+                    File3_Displaying_Teachers_List.main(number);
+                    System.out.println("||============================================||");
+                    System.out.println("||             THANKS FOR VOTING!             ||");
+                    System.out.println("||============================================||");
+                    if (i==n) {
+                        addMore = false;
+                    }
+                    ++i;
+                }
+                writer.close();
+            } catch (IOException e) {
+                System.out.println("An error occurred while writing to the file.");
+                e.printStackTrace();
+            }
+        }
+        if(args[0]=="A"&&args[1]=="4")
+        {
+            Scanner sc = new Scanner(System.in);
+            int i = 1;
+            System.out.printf("            Enter number of students %14s"," \n");
+            System.out.printf("%22s"," ");
+            int n = sc.nextInt();
+            sc.nextLine();  
+            try {
+                FileWriter writer = new FileWriter("4A.txt", true);
+                boolean addMore = true;
+                while (addMore) {
+                    System.out.println("            Enter name of student : "+(i));
+                    System.out.printf("   %15s","");
+                    String name = sc.nextLine();
+                    System.out.printf("         Enter roll number of student: %d %6s",(i),"  \n");
+                    System.out.printf("  %20s"," ");
+                    int roll = sc.nextInt();
+                    sc.nextLine(); 
+                    writer.write(name + ","  + "," + roll + "\n");
+                    String[] number = new String[1];
+                    number[0] = Integer.toString(i);
+                    File3_Displaying_Teachers_List.main(number);
+                    System.out.println("||============================================||");
+                    System.out.println("||             THANKS FOR VOTING!             ||");
+                    System.out.println("||============================================||");
+                    if (i==n) {
+                        addMore = false;
+                    }
+                    ++i;
+                }
+                writer.close();
+                
+
+            } catch (IOException e) {
+                System.out.println("An error occurred while writing to the file.");
+                e.printStackTrace();
+            }
+        }
+        if(args[0]=="A"&&args[1]=="5")
+        {
+            Scanner sc = new Scanner(System.in);
+            int i = 1;
+            System.out.printf("            Enter number of students %14s"," \n");
+            System.out.printf("%22s"," ");
+            int n = sc.nextInt();
+            sc.nextLine();  
+            try {
+                FileWriter writer = new FileWriter("5A.txt", true);
+                boolean addMore = true;
+                while (addMore) {
+                    System.out.println("            Enter name of student : "+(i));
+                    System.out.printf("   %15s","");
+                    String name = sc.nextLine();
+                    System.out.printf("         Enter roll number of student: %d %6s",(i),"  \n");
+                    System.out.printf("  %20s"," ");
+                    int roll = sc.nextInt();
+                    sc.nextLine(); 
+                    writer.write(name + ","  + "," + roll + "\n");
+                    String[] number = new String[1];
+                    number[0] = Integer.toString(i);
+                    File3_Displaying_Teachers_List.main(number);
+                    System.out.println("||============================================||");
+                    System.out.println("||             THANKS FOR VOTING!             ||");
+                    System.out.println("||============================================||");
+                    if (i==n) {
+                        addMore = false;
+                    }
+                    ++i;
+                }
+                writer.close();
+                
+
+            } catch (IOException e) {
+                System.out.println("An error occurred while writing to the file.");
+                e.printStackTrace();
+            }
+        }
+        if(args[0]=="A"&&args[1]=="6")
+        {
+            Scanner sc = new Scanner(System.in);
+            int i = 1;
+            System.out.printf("            Enter number of students %14s"," \n");
+            System.out.printf("%22s"," ");
+            int n = sc.nextInt();
+            sc.nextLine();  
+            try {
+                FileWriter writer = new FileWriter("6A.txt", true);
+                boolean addMore = true;
+                while (addMore) {
+                    System.out.println("            Enter name of student : "+(i));
+                    System.out.printf("   %15s","");
+                    String name = sc.nextLine();
+                    System.out.printf("         Enter roll number of student: %d %6s",(i),"  \n");
+                    System.out.printf("  %20s"," ");
+                    int roll = sc.nextInt();
+                    sc.nextLine(); 
+                    writer.write(name + ","  + "," + roll + "\n");
+                    String[] number = new String[1];
+                    number[0] = Integer.toString(i);
+                    File3_Displaying_Teachers_List.main(number);
+                    System.out.println("||============================================||");
+                    System.out.println("||             THANKS FOR VOTING!             ||");
+                    System.out.println("||============================================||");
+                    if (i==n) {
+                        addMore = false;
+                    }
+                    ++i;
+                }
+                writer.close();
+                
+            } catch (IOException e) {
+                System.out.println("An error occurred while writing to the file.");
+                e.printStackTrace();
+            }
+        }
+        if(args[0]=="B"&&args[1]=="1")
+        {
+            Scanner sc = new Scanner(System.in);
+            int i = 1;
+            System.out.printf("            Enter number of students %14s"," \n");
+            System.out.printf("%22s"," ");
+            int n = sc.nextInt();
+            sc.nextLine();  
+            try {
+                FileWriter writer = new FileWriter("1B.txt", true);
+                boolean addMore = true;
+                while (addMore) {
+                    System.out.println("            Enter name of student : "+(i));
+                    System.out.printf("   %15s","");
+                    String name = sc.nextLine();
+                    System.out.printf("         Enter roll number of student: %d %6s",(i),"  \n");
+                    System.out.printf("  %20s"," ");
+                    int roll = sc.nextInt();
+                    sc.nextLine(); 
+                    writer.write(name + ","  + "," + roll + "\n");
+                    String[] number = new String[1];
+                    number[0] = Integer.toString(i);
+                    File3_Displaying_Teachers_List.main(number);
+                    System.out.println("||============================================||");
+                    System.out.println("||             THANKS FOR VOTING!             ||");
+                    System.out.println("||============================================||");
+                    if (i==n) {
+                        addMore = false;
+                    }
+                    ++i;
+                }
+                writer.close();
+                
+            } catch (IOException e) {
+                System.out.println("An error occurred while writing to the file.");
+                e.printStackTrace();
+            }
+        }
+        // this is to call 2A Batch
+        if(args[0]=="B"&&args[1]=="2")
+        {
+            Scanner sc = new Scanner(System.in);
+            int i = 1;
+            System.out.printf("            Enter number of students %14s"," \n");
+            System.out.printf("%22s"," ");
+            int n = sc.nextInt();
+            sc.nextLine();  
+            try {
+                FileWriter writer = new FileWriter("2B.txt", true);
+                boolean addMore = true;
+                while (addMore) {
+                    System.out.println("            Enter name of student : "+(i));
+                    System.out.printf("   %15s","");
+                    String name = sc.nextLine();
+                    System.out.printf("         Enter roll number of student: %d %6s",(i),"  \n");
+                    System.out.printf("  %20s"," ");
+                    int roll = sc.nextInt();
+                    sc.nextLine(); 
+                    writer.write(name + ","  + "," + roll + "\n");
+                    String[] number = new String[1];
+                    number[0] = Integer.toString(i);
+                    File3_Displaying_Teachers_List.main(number);
+                    System.out.println("||============================================||");
+                    System.out.println("||             THANKS FOR VOTING!             ||");
+                    System.out.println("||============================================||");
+                    if (i==n) {
+                        addMore = false;
+                    }
+                    ++i;
+                }
+                writer.close();
+            } catch (IOException e) {
+                System.out.println("An error occurred while writing to the file.");
+                e.printStackTrace();
+            }
+        }
+        // this is to call 3-B batch
+        if(args[0]=="B"&&args[1]=="3")
+        {
+            Scanner sc = new Scanner(System.in);
+            int i = 1;
+            System.out.printf("            Enter number of students %14s"," \n");
+            System.out.printf("%22s"," ");
+            int n = sc.nextInt();
+            sc.nextLine();  
+            try {
+                FileWriter writer = new FileWriter("3B.txt", true);
+                boolean addMore = true;
+                while (addMore) {
+                    System.out.println("            Enter name of student : "+(i));
+                    System.out.printf("   %15s","");
+                    String name = sc.nextLine();
+                    System.out.printf("         Enter roll number of student: %d %6s",(i),"  \n");
+                    System.out.printf("  %20s"," ");
+                    int roll = sc.nextInt();
+                    sc.nextLine(); 
+                    writer.write(name + ","  + "," + roll + "\n");
+                    String[] number = new String[1];
+                    number[0] = Integer.toString(i);
+                    File3_Displaying_Teachers_List.main(number);
+                    System.out.println("||============================================||");
+                    System.out.println("||             THANKS FOR VOTING!             ||");
+                    System.out.println("||============================================||");
+                    if (i==n) {
+                        addMore = false;
+                    }
+                    ++i;
+                }
+                writer.close();
+                
+
+            } catch (IOException e) {
+                System.out.println("An error occurred while writing to the file.");
+                e.printStackTrace();
+            }
+        }
+        if(args[0]=="B"&&args[1]=="4")
+        {
+            Scanner sc = new Scanner(System.in);
+            int i = 1;
+            System.out.printf("            Enter number of students %14s"," \n");
+            System.out.printf("%22s"," ");
+            int n = sc.nextInt();
+            sc.nextLine();  
+            try {
+                FileWriter writer = new FileWriter("4B.txt", true);
+                boolean addMore = true;
+                while (addMore) {
+                    System.out.println("            Enter name of student : "+(i));
+                    System.out.printf("   %15s","");
+                    String name = sc.nextLine();
+                    System.out.printf("         Enter roll number of student: %d %6s",(i),"  \n");
+                    System.out.printf("  %20s"," ");
+                    int roll = sc.nextInt();
+                    sc.nextLine(); 
+                    writer.write(name + ","  + "," + roll + "\n");
+                    String[] number = new String[1];
+                    number[0] = Integer.toString(i);
+                    File3_Displaying_Teachers_List.main(number);
+                    System.out.println("||============================================||");
+                    System.out.println("||             THANKS FOR VOTING!             ||");
+                    System.out.println("||============================================||");
+                    if (i==n) {
+                        addMore = false;
+                    }
+                    ++i;
+                }
+                writer.close();
+            } catch (IOException e) {
+                System.out.println("An error occurred while writing to the file.");
+                e.printStackTrace();
+            }
+        }
+        if(args[0]=="B"&&args[1]=="5")
+        {
+            Scanner sc = new Scanner(System.in);
+            int i = 1;
+            System.out.printf("            Enter number of students %14s"," \n");
+            System.out.printf("%22s"," ");
+            int n = sc.nextInt();
+            sc.nextLine();  
+            try {
+                FileWriter writer = new FileWriter("5B.txt", true);
+                boolean addMore = true;
+                while (addMore) {
+                    System.out.println("            Enter name of student : "+(i));
+                    System.out.printf("   %15s","");
+                    String name = sc.nextLine();
+                    System.out.printf("         Enter roll number of student: %d %6s",(i),"  \n");
+                    System.out.printf("  %20s"," ");
+                    int roll = sc.nextInt();
+                    sc.nextLine(); 
+                    writer.write(name + ","  + "," + roll + "\n");
+                    String[] number = new String[1];
+                    number[0] = Integer.toString(i);
+                    File3_Displaying_Teachers_List.main(number);
+                    System.out.println("||============================================||");
+                    System.out.println("||             THANKS FOR VOTING!             ||");
+                    System.out.println("||============================================||");
+                    if (i==n) {
+                        addMore = false;
+                    }
+                    ++i;
+                }
+                writer.close();
+                
+
+            } catch (IOException e) {
+                System.out.println("An error occurred while writing to the file.");
+                e.printStackTrace();
+            }
+        }
+        if(args[0]=="B"&&args[1]=="6")
+        {
+            Scanner sc = new Scanner(System.in);
+            int i = 1;
+            System.out.printf("            Enter number of students %14s"," \n");
+            System.out.printf("%22s"," ");
+            int n = sc.nextInt();
+            sc.nextLine();  
+            try {
+                FileWriter writer = new FileWriter("6B.txt", true);
+                boolean addMore = true;
+                while (addMore) {
+                    System.out.println("            Enter name of student : "+(i));
+                    System.out.printf("   %15s","");
+                    String name = sc.nextLine();
+                    System.out.printf("         Enter roll number of student: %d %6s",(i),"  \n");
+                    System.out.printf("  %20s"," ");
+                    int roll = sc.nextInt();
+                    sc.nextLine(); 
+                    writer.write(name + ","  + "," + roll + "\n");
+                    String[] number = new String[1];
+                    number[0] = Integer.toString(i);
+                    File3_Displaying_Teachers_List.main(number);
+                    System.out.println("||============================================||");
+                    System.out.println("||           THANKS FOR VOTING!             ||");
+                    System.out.println("||============================================||");
+                    if (i==n) {
+                        addMore = false;
+                    }
+                    ++i;
+                }
+                writer.close();
+            } catch (IOException e) {
+                System.out.println("An error occurred while writing to the file.");
+                e.printStackTrace();
+            }
+        }
+    }
+}
+
+// THIS IS THIRD JAVA FILE TO SELECT THE FAVROUITE TEACHER
+package PROJECT;
+import java.util.*;
+public class File3_Displaying_Teachers_List 
+{
+    public static void main(String[] args) 
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("||============================================||");
+        System.out.println("||   SELECT YOUR FAVROUTIE TEACHER'S SUBJECT!.||");
+        System.out.println("||     (GUYS, DON'T FORGET THE ES, LOL!)      ||");
+        System.out.println("||============================================||");
+        System.out.printf("%20s"," ");
+        String subject_name = sc.nextLine();
+        if(subject_name.equalsIgnoreCase("java"))
+        {
+            System.out.println("||============================================||");
+            System.out.println("||        THE LIST OF JAVA TEACHERS           ||");
+            System.out.printf( "||        1)%-15s %s %16s %n", "komal langalia", "KDL","||");
+            System.out.printf( "||        2)%-15s %s %16s %n", "Uma joshi", "UTJ","||");
+            System.out.printf( "||        3)%-15s %s %16s %n", "Milan patel", "MDP","||");
+            System.out.printf( "||        4)%-15s %s %16s %n", "Ankur patel", "ARP","||");
+            System.out.printf( "||        5)%-15s %s %16s %n", "Jenish shah", "JIS","||");
+            System.out.printf( "||        6)%-15s %s %16s %n", "Jinal zala", "JAZ","||");
+            File4_Voting_Teacher.main(args);
+        }
+        if(subject_name.equalsIgnoreCase("Maths"))
+        {
+            System.out.println("||         THE LIST OF MATHS TEACHERS         ||");
+            System.out.printf( "||        1)%-15s %s %15s %n", "Dinesh Mehbubani", "DAM","||");
+            System.out.printf( "||        2)%-15s %s %16s %n", "Hena Shah", "HRS","||");
+            System.out.printf( "||        3)%-15s %s %16s %n", "Hitesh Manglani", "HAM","||");
+            System.out.printf( "||        4)%-15s %s %16s %n", "Krunal Patel", "PKS","||");
+            File4_Voting_Teacher.main(args);
+        }
+        if(subject_name.equalsIgnoreCase("ES"))
+        {
+            System.out.println("||         THE LIST OF ES TEACHERS          ||");
+            System.out.printf( "||          1)%-15s %s %12s %n", "Akhilesh Yadav", "ARY","||");
+            File4_Voting_Teacher.main(args);
+        }
+        if(subject_name.equalsIgnoreCase("Physics"))
+        {
+            System.out.printf("||    THE LIST OF PHYSICS TEACHERS%15s","||\n");
+            System.out.printf( "||        1)%-15s %s %16s %n", "Nikunj Singhala", "NRS","||");
+            System.out.printf( "||        2)%-15s %s %16s %n", "Sagar Choksi", "SVC","||");
+            System.out.printf( "||        3)%-15s %s %16s %n", "Nirav Mehta", "NAM","||");
+            System.out.printf( "||        4)%-15s %s %16s %n", "Nimis Das", "NSD","||");
+            File4_Voting_Teacher.main(args);
+        }
+        if(subject_name.equalsIgnoreCase("SE"))
+        {
+            System.out.println("||         THE LIST OF SE TEACHERS            ||");
+            System.out.printf( "||          1)%-15s %s %14s %n",  "Diptesh Patel", "PDR","||");
+            System.out.printf( "||          2)%-15s %s %14s %n",  "Khusboo Shah", "KCS","||");
+            System.out.printf( "||          3)%-15s %s %14s %n",  "Nidhi Mehta", "NRM","||");
+            File4_Voting_Teacher.main(args);  
+        }
+    }    
+}
+
+// THIS IS 4TH AND THE LAST FILE TO STORE THE VOTE FOR ALL STUDENTS
+package PROJECT;
+import java.io.*;
+import java.util.*;
+public class File4_Voting_Teacher 
+{
+        public static void main(String[] args) 
+    {
+        Teachers_List t = new Teachers_List();
+        Teachers_List.Java J = t.new Java();
+        Teachers_List.Maths M = t.new Maths();
+        Teachers_List.Physics P = t.new Physics();
+        Teachers_List.ES E = t.new ES();
+        Teachers_List.SE S  = t.new SE();
+        Scanner sc = new Scanner(System.in);
+        System.out.println("||============================================||");
+            System.out.println("||ENTER THE SORTNAME OF YOUR FAVROUITE TEACHER||");
+            System.out.printf("%21s"," ");
+            String teacher_name = sc.nextLine();
+            if(teacher_name.equalsIgnoreCase("KDL"))
+            {
+                J.new Komal_langalia();
+            }
+            if(teacher_name.equalsIgnoreCase("UTJ"))
+            {
+                J.new Uma_joshi();
+            }
+            if(teacher_name.equalsIgnoreCase("MDP"))
+            {
+                J.new Milan_patel();
+            }
+            if(teacher_name.equalsIgnoreCase("ARP"))
+            {
+                J.new Ankur_patel();
+            }
+            if(teacher_name.equalsIgnoreCase("JIS"))
+            {
+                J.new Jenish_shah();
+            }
+            if(teacher_name.equalsIgnoreCase("JAZ"))
+            {
+                J.new Jinal_zala();
+            }
+            if(teacher_name.equalsIgnoreCase("DAM"))
+            {
+                M.new Dinesh_Mehbubani();
+            }
+            if(teacher_name.equalsIgnoreCase("HRS"))
+            {
+                M.new Hena_shah();
+            }
+            if(teacher_name.equalsIgnoreCase("HAM"))
+            {
+                M.new Hitesh_manglani();
+            }     
+            if(teacher_name.equalsIgnoreCase("PKS"))
+            {
+                M.new Krunal_patel();
+            }
+            if(teacher_name.equalsIgnoreCase("ARY"))
+            {
+                E.new Akhilesh_yadav();
+            }
+            if(teacher_name.equalsIgnoreCase("NRS"))
+            {
+                P.new Nikunj_Singhala();
+            }
+            if(teacher_name.equalsIgnoreCase("SVC"))
+            {
+                P.new Sagar_choksi();
+            }
+            if(teacher_name.equalsIgnoreCase("NAM"))
+            {
+                P.new Nirav_Mehta();
+            }
+            if(teacher_name.equalsIgnoreCase("NSD"))
+            {
+                P.new Nimis_Das();
+            }
+            if(teacher_name.equalsIgnoreCase("PDR"))
+            {
+                S.new Diptesh_patel();
+            }
+            if(teacher_name.equalsIgnoreCase("KCS"))
+            {
+                S.new Khusboo_Shah();
+            }
+            if(teacher_name.equalsIgnoreCase("NRM"))
+            {
+                S.new Nidhi_Mehta();
+        }
+    }    
+}
+class Teachers_List
+{
+    class Java
+    {
+        class Komal_langalia
+        {
+            public Komal_langalia() 
+            {
+                File file = new File("komal_langalia_votes.txt");
+                int komal_langalia_votes;
+                if(!file.exists())// to create the ifle if file does not exist
+                {
+                    try {
+                        file.createNewFile();
+                        FileWriter writer = new FileWriter(file);
+                        writer.write("0");
+                        writer.close();
+                    } catch (Exception e) 
+                    {
+                        e.printStackTrace();
+                    }
+                }
+                try {
+                    BufferedReader reader = new BufferedReader(new FileReader(file));
+                    komal_langalia_votes = Integer.parseInt(reader.readLine()); 
+                    reader.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    komal_langalia_votes = 0;
+                }
+                // to incerment the votes
+                komal_langalia_votes++;    
+                try {
+                    FileWriter writer = new FileWriter(file);
+                    writer.write(Integer.toString(komal_langalia_votes));
+                    writer.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }                
+            }
+        }
+        class Uma_joshi
+        {
+            public Uma_joshi()
+            {
+                File file = new File("Uma_joshi_votes.txt");
+                int Uma_joshi_votes;
+                if(!file.exists())// to create the ifle if file does not exist
+                {
+                    try {
+                        file.createNewFile();
+                        FileWriter writer = new FileWriter(file);
+                        writer.write("0");
+                        writer.close();
+                    } catch (Exception e) 
+                    {
+                        e.printStackTrace();
+                    }
+                }
+                try {
+                    BufferedReader reader = new BufferedReader(new FileReader(file));
+                    Uma_joshi_votes = Integer.parseInt(reader.readLine()); 
+                    reader.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    Uma_joshi_votes = 0;
+                }
+                // to incerment the votes
+                Uma_joshi_votes++;    
+                try {
+                    FileWriter writer = new FileWriter(file);
+                    writer.write(Integer.toString(Uma_joshi_votes));
+                    writer.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }                
+            }
+        }
+        class Milan_patel
+        {
+            public Milan_patel() 
+            {
+                File file = new File("Milan_patel_votes.txt");
+                int Milan_patel_votes;
+                if(!file.exists())// to create the ifle if file does not exist
+                {
+                    try {
+                        file.createNewFile();
+                        FileWriter writer = new FileWriter(file);
+                        writer.write("0");
+                        writer.close();
+                    } catch (Exception e) 
+                    {
+                        e.printStackTrace();
+                    }
+                }
+                try {
+                    BufferedReader reader = new BufferedReader(new FileReader(file));
+                    Milan_patel_votes = Integer.parseInt(reader.readLine()); 
+                    reader.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    Milan_patel_votes = 0;
+                }
+                // to incerment the votes
+                Milan_patel_votes++;    
+                try {
+                    FileWriter writer = new FileWriter(file);
+                    writer.write(Integer.toString(Milan_patel_votes));
+                    writer.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }                
+            }
+        }
+        class Jinal_zala
+        {
+            public Jinal_zala() 
+            {
+                File file = new File("Jinal_zala.txt");
+                int Jinal_zala;
+                if(!file.exists())// to create the ifle if file does not exist
+                {
+                    try {
+                        file.createNewFile();
+                        FileWriter writer = new FileWriter(file);
+                        writer.write("0");
+                        writer.close();
+                    } catch (Exception e) 
+                    {
+                        e.printStackTrace();
+                    }
+                }
+                try {
+                    BufferedReader reader = new BufferedReader(new FileReader(file));
+                    Jinal_zala = Integer.parseInt(reader.readLine()); 
+                    reader.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    Jinal_zala = 0;
+                }
+                // to incerment the votes
+                Jinal_zala++;    
+                try {
+                    FileWriter writer = new FileWriter(file);
+                    writer.write(Integer.toString(Jinal_zala));
+                    writer.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }                
+            }
+        }
+        class Ankur_patel
+        {
+            public Ankur_patel() 
+            {
+                File file = new File("Ankur_patel.txt");
+                int Ankur_patel;
+                if(!file.exists())// to create the ifle if file does not exist
+                {
+                    try {
+                        file.createNewFile();
+                        FileWriter writer = new FileWriter(file);
+                        writer.write("0");
+                        writer.close();
+                    } catch (Exception e) 
+                    {
+                        e.printStackTrace();
+                    }
+                }
+                try {
+                    BufferedReader reader = new BufferedReader(new FileReader(file));
+                    Ankur_patel = Integer.parseInt(reader.readLine()); 
+                    reader.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    Ankur_patel = 0;
+                }
+                // to incerment the votes
+                Ankur_patel++;    
+                try {
+                    FileWriter writer = new FileWriter(file);
+                    writer.write(Integer.toString(Ankur_patel));
+                    writer.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }                
+            }
+        }
+        class Jenish_shah
+        {
+            public Jenish_shah() 
+            {
+                File file = new File("Jenish_shah.txt");
+                int Jenish_shah;
+                if(!file.exists())// to create the ifle if file does not exist
+                {
+                    try {
+                        file.createNewFile();
+                        FileWriter writer = new FileWriter(file);
+                        writer.write("0");
+                        writer.close();
+                    } catch (Exception e) 
+                    {
+                        e.printStackTrace();
+                    }
+                }
+                try {
+                    BufferedReader reader = new BufferedReader(new FileReader(file));
+                    Jenish_shah = Integer.parseInt(reader.readLine()); 
+                    reader.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    Jenish_shah = 0;
+                }
+                // to incerment the votes
+                Jenish_shah++;    
+                try {
+                    FileWriter writer = new FileWriter(file);
+                    writer.write(Integer.toString(Jenish_shah));
+                    writer.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }                
+            }
+        }
+    }
+    class Maths
+    {
+        class Dinesh_Mehbubani
+        {
+            public Dinesh_Mehbubani() 
+            {
+                File file = new File("Dinesh_mehbubani_votes.txt");
+                int Dinesh_mehbubani_votes;
+                if(!file.exists())// to create the ifle if file does not exist
+                {
+                    try {
+                        file.createNewFile();
+                        FileWriter writer = new FileWriter(file);
+                        writer.write("0");
+                        writer.close();
+                    } catch (Exception e) 
+                    {
+                        e.printStackTrace();
+                    }
+                }
+                try {
+                    BufferedReader reader = new BufferedReader(new FileReader(file));
+                    Dinesh_mehbubani_votes = Integer.parseInt(reader.readLine()); 
+                    reader.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    Dinesh_mehbubani_votes = 0;
+                }
+                // to incerment the votes
+                Dinesh_mehbubani_votes++;    
+                try {
+                    FileWriter writer = new FileWriter(file);
+                    writer.write(Integer.toString(Dinesh_mehbubani_votes));
+                    writer.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }                
+            }
+        }
+        class Hena_shah
+        {
+            public Hena_shah()
+            {
+                File file = new File("Hena_shah_votes.txt");
+                int Hena_shah_votes;
+                if(!file.exists())// to create the ifle if file does not exist
+                {
+                    try {
+                        file.createNewFile();
+                        FileWriter writer = new FileWriter(file);
+                        writer.write("0");
+                        writer.close();
+                    } catch (Exception e) 
+                    {
+                        e.printStackTrace();
+                    }
+                }
+                try {
+                    BufferedReader reader = new BufferedReader(new FileReader(file));
+                    Hena_shah_votes = Integer.parseInt(reader.readLine()); 
+                    reader.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    Hena_shah_votes = 0;
+                }
+                // to incerment the votes
+                Hena_shah_votes++;    
+                try {
+                    FileWriter writer = new FileWriter(file);
+                    writer.write(Integer.toString(Hena_shah_votes));
+                    writer.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }                
+            }
+        }
+        class Hitesh_manglani
+        {
+            public Hitesh_manglani() 
+            {
+                File file = new File("Hitesh_manglani_votes.txt");
+                int Hitesh_manglani_votes;
+                if(!file.exists())// to create the ifle if file does not exist
+                {
+                    try {
+                        file.createNewFile();
+                        FileWriter writer = new FileWriter(file);
+                        writer.write("0");
+                        writer.close();
+                    } catch (Exception e) 
+                    {
+                        e.printStackTrace();
+                    }
+                }
+                try {
+                    BufferedReader reader = new BufferedReader(new FileReader(file));
+                    Hitesh_manglani_votes = Integer.parseInt(reader.readLine()); 
+                    reader.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    Hitesh_manglani_votes = 0;
+                }
+                // to incerment the votes
+                Hitesh_manglani_votes++;    
+                try {
+                    FileWriter writer = new FileWriter(file);
+                    writer.write(Integer.toString(Hitesh_manglani_votes));
+                    writer.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }                
+            }
+        }
+        class Krunal_patel
+        {
+            public Krunal_patel() 
+            {
+                File file = new File("Krunal_patel.txt");
+                int Krunal_patel;
+                if(!file.exists())// to create the ifle if file does not exist
+                {
+                    try {
+                        file.createNewFile();
+                        FileWriter writer = new FileWriter(file);
+                        writer.write("0");
+                        writer.close();
+                    } catch (Exception e) 
+                    {
+                        e.printStackTrace();
+                    }
+                }
+                try {
+                    BufferedReader reader = new BufferedReader(new FileReader(file));
+                    Krunal_patel = Integer.parseInt(reader.readLine()); 
+                    reader.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    Krunal_patel = 0;
+                }
+                // to incerment the votes
+                Krunal_patel++;    
+                try {
+                    FileWriter writer = new FileWriter(file);
+                    writer.write(Integer.toString(Krunal_patel));
+                    writer.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }                
+            }
+        }
+    }
+    class Physics
+    {
+        class Nikunj_Singhala
+        {
+            public Nikunj_Singhala() 
+            {
+                File file = new File("Nikunj_Singhala_votes.txt");
+                int Nikunj_Singhala_votes;
+                if(!file.exists())// to create the ifle if file does not exist
+                {
+                    try {
+                        file.createNewFile();
+                        FileWriter writer = new FileWriter(file);
+                        writer.write("0");
+                        writer.close();
+                    } catch (Exception e) 
+                    {
+                        e.printStackTrace();
+                    }
+                }
+                try {
+                    BufferedReader reader = new BufferedReader(new FileReader(file));
+                    Nikunj_Singhala_votes = Integer.parseInt(reader.readLine()); 
+                    reader.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    Nikunj_Singhala_votes = 0;
+                }
+                // to incerment the votes
+                Nikunj_Singhala_votes++;    
+                try {
+                    FileWriter writer = new FileWriter(file);
+                    writer.write(Integer.toString(Nikunj_Singhala_votes));
+                    writer.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }                
+            }
+        }
+        class Sagar_choksi
+        {
+            public Sagar_choksi()
+            {
+                File file = new File("Sagar_choksi_votes.txt");
+                int Sagar_choksi_votes;
+                if(!file.exists())// to create the ifle if file does not exist
+                {
+                    try {
+                        file.createNewFile();
+                        FileWriter writer = new FileWriter(file);
+                        writer.write("0");
+                        writer.close();
+                    } catch (Exception e) 
+                    {
+                        e.printStackTrace();
+                    }
+                }
+                try {
+                    BufferedReader reader = new BufferedReader(new FileReader(file));
+                    Sagar_choksi_votes = Integer.parseInt(reader.readLine()); 
+                    reader.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    Sagar_choksi_votes = 0;
+                }
+                // to incerment the votes
+                Sagar_choksi_votes++;    
+                try {
+                    FileWriter writer = new FileWriter(file);
+                    writer.write(Integer.toString(Sagar_choksi_votes));
+                    writer.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }                
+            }
+        }
+        class Nirav_Mehta
+        {
+            public Nirav_Mehta() 
+            {
+                File file = new File("Nirav_Mehta_votes.txt");
+                int Nirav_Mehta_votes;
+                if(!file.exists())// to create the ifle if file does not exist
+                {
+                    try {
+                        file.createNewFile();
+                        FileWriter writer = new FileWriter(file);
+                        writer.write("0");
+                        writer.close();
+                    } catch (Exception e) 
+                    {
+                        e.printStackTrace();
+                    }
+                }
+                try {
+                    BufferedReader reader = new BufferedReader(new FileReader(file));
+                    Nirav_Mehta_votes = Integer.parseInt(reader.readLine()); 
+                    reader.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    Nirav_Mehta_votes = 0;
+                }
+                // to incerment the votes
+                Nirav_Mehta_votes++;    
+                try {
+                    FileWriter writer = new FileWriter(file);
+                    writer.write(Integer.toString(Nirav_Mehta_votes));
+                    writer.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }                
+            }
+        }
+        class Nimis_Das
+        {
+            public Nimis_Das() 
+            {
+                File file = new File("Nimis_Das_votes.txt");
+                int Nimis_Das_votes;
+                if(!file.exists())// to create the ifle if file does not exist
+                {
+                    try {
+                        file.createNewFile();
+                        FileWriter writer = new FileWriter(file);
+                        writer.write("0");
+                        writer.close();
+                    } catch (Exception e) 
+                    {
+                        e.printStackTrace();
+                    }
+                }
+                try {
+                    BufferedReader reader = new BufferedReader(new FileReader(file));
+                    Nimis_Das_votes = Integer.parseInt(reader.readLine()); 
+                    reader.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    Nimis_Das_votes = 0;
+                }
+                // to incerment the votes
+                Nimis_Das_votes++;    
+                try {
+                    FileWriter writer = new FileWriter(file);
+                    writer.write(Integer.toString(Nimis_Das_votes));
+                    writer.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }                
+            }
+        }
+    }
+    class ES
+    {
+        class Akhilesh_yadav
+        {
+            public Akhilesh_yadav() 
+            {
+                File file = new File("Akhilesh_yadav_votes.txt");
+                int Akhilesh_yadav_votes;
+                if(!file.exists())// to create the ifle if file does not exist
+                {
+                    try {
+                        file.createNewFile();
+                        FileWriter writer = new FileWriter(file);
+                        writer.write("0");
+                        writer.close();
+                    } catch (Exception e) 
+                    {
+                        e.printStackTrace();
+                    }
+                }
+                try {
+                    BufferedReader reader = new BufferedReader(new FileReader(file));
+                    Akhilesh_yadav_votes = Integer.parseInt(reader.readLine()); 
+                    reader.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    Akhilesh_yadav_votes = 0;
+                }
+                // to incerment the votes
+                Akhilesh_yadav_votes++;    
+                try {
+                    FileWriter writer = new FileWriter(file);
+                    writer.write(Integer.toString(Akhilesh_yadav_votes));
+                    writer.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }                
+            }
+        }
+    }
+    class SE
+    {
+        class Diptesh_patel
+        {
+            public Diptesh_patel()
+            {
+                File file = new File("Diptesh_patel_votes.txt");
+                int Diptesh_patel_votes;
+                if(!file.exists())// to create the ifle if file does not exist
+                {
+                    try {
+                        file.createNewFile();
+                        FileWriter writer = new FileWriter(file);
+                        writer.write("0");
+                        writer.close();
+                    } catch (Exception e) 
+                    {
+                        e.printStackTrace();
+                    }
+                }
+                try {
+                    BufferedReader reader = new BufferedReader(new FileReader(file));
+                    Diptesh_patel_votes = Integer.parseInt(reader.readLine()); 
+                    reader.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    Diptesh_patel_votes = 0;
+                }
+                // to incerment the votes
+                Diptesh_patel_votes++;    
+                try {
+                    FileWriter writer = new FileWriter(file);
+                    writer.write(Integer.toString(Diptesh_patel_votes));
+                    writer.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }                
+            }
+        }
+        class Khusboo_Shah
+        {
+            public Khusboo_Shah() 
+            {
+                File file = new File("Khusboo_Shah_votes.txt");
+                int Khusboo_Shah_votes;
+                if(!file.exists())// to create the ifle if file does not exist
+                {
+                    try {
+                        file.createNewFile();
+                        FileWriter writer = new FileWriter(file);
+                        writer.write("0");
+                        writer.close();
+                    } catch (Exception e) 
+                    {
+                        e.printStackTrace();
+                    }
+                }
+                try {
+                    BufferedReader reader = new BufferedReader(new FileReader(file));
+                    Khusboo_Shah_votes = Integer.parseInt(reader.readLine()); 
+                    reader.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    Khusboo_Shah_votes = 0;
+                }
+                // to incerment the votes
+                Khusboo_Shah_votes++;    
+                try {
+                    FileWriter writer = new FileWriter(file);
+                    writer.write(Integer.toString(Khusboo_Shah_votes));
+                    writer.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }                
+            }
+        }
+        class Nidhi_Mehta
+        {
+            public Nidhi_Mehta() 
+            {
+                File file = new File("Nidhi_Mehta_votes.txt");
+                int Nidhi_Mehta_votes;
+                if(!file.exists())// to create the ifle if file does not exist
+                {
+                    try {
+                        file.createNewFile();
+                        FileWriter writer = new FileWriter(file);
+                        writer.write("0");
+                        writer.close();
+                    } catch (Exception e) 
+                    {
+                        e.printStackTrace();
+                    }
+                }
+                try {
+                    BufferedReader reader = new BufferedReader(new FileReader(file));
+                    Nidhi_Mehta_votes = Integer.parseInt(reader.readLine()); 
+                    reader.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    Nidhi_Mehta_votes = 0;
+                }
+                // to incerment the votes
+                Nidhi_Mehta_votes++;    
+                try {
+                    FileWriter writer = new FileWriter(file);
+                    writer.write(Integer.toString(Nidhi_Mehta_votes));
+                    writer.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }                
+            }
+        }
+    }
+}
